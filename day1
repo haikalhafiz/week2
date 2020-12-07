@@ -1,0 +1,105 @@
+console.log("Hello World");
+
+var name = "Muhammad Haikal";
+console.log(name);
+var city = "Kota Kinabalu"
+console.log(city);
+var greeting ="hello " + name ;
+console.log(greeting);
+
+var a = 20;
+var b = 2;
+
+//operations(+,-,*,/,%)
+
+var sum = a+b;
+console.log(sum);
+
+var minus = a-b;
+console.log (minus);
+
+var darab = a*b;
+console.log(darab);
+
+var bahagi = a/b;
+console.log(bahagi);
+
+var percent = b%a;
+console.log(percent);
+
+//boolean
+
+var ishungry = true;
+console.log(ishungry)
+
+//control flow, if else//
+
+if (isHungry=true)
+  {console.log("lets dinner!");}
+  else
+    {console.log("lets eat later");}
+
+var age = 15;
+
+if (age<18)
+  {console.log("you cannot watch the movie")}
+else 
+  {console.log("you may enter the cinema");}
+
+if(age<13)
+  {console.log("you cannot watch the movie");}
+
+else if (age<18)
+  {console.log("but you can watch with parent");}
+
+else 
+  {console.log("you are free to watch the movie");}
+
+//exercise
+
+var umur = 70;
+var fullprice = 100;
+
+if (umur<18)
+  {console.log(fullprice*0.5);}
+
+else if (umur<41)
+  {console.log(fullprice);}
+
+else if (umur<66)
+  {console.log(fullprice*0.75);}
+
+else {console.log (fullprice*0.5);}
+
+//execise 2
+
+var a = 129342823;
+
+if(a%2==0)
+  {console.log(a +" is an even number");}
+else
+  {console.log(a +" is an odd number");}
+
+//control flow - for loop
+//from 0 ;until 10 every iteration add by 1
+
+for (var i = 0 ; i<10;i++)
+  {console.log(i);}
+
+//from 1 until 10;every iteration add by 2
+
+for (var i =1;i<10;i+=2)
+  {console.log(i);}
+
+
+//exercise multiplication of 4
+
+
+var lines = 15 ;
+var multiplier = 4 ;
+
+for (var a=1;a<lines;a++)
+ 
+{console.log(a+ "x"+ multiplier+ "="+ a*multiplier);}
+
+
